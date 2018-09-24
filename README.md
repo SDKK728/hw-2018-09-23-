@@ -48,3 +48,15 @@ int v1 = 80;                                 //  pro12.
 //        }else if(z1%4!=0){
 //            System.out.println("flase");
 //        }
+
+
+
+   Scanner scn = new Scanner(System.in);   //pro 24.
+        int a = scn.nextInt();
+        int b = scn.nextInt();
+        int c    = scn.nextInt();
+        if ( (a<=b&&b<=c)&&(a+b>c)){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
